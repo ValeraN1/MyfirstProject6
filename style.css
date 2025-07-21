@@ -1,0 +1,144 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+canvas {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.container, header, section, footer {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+header.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.ggd {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.rdds {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.shop-link {
+  color: #00ffff;
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+.section.dark {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  color: red;
+}
+
+.edss, .rfv, .tgb {
+  text-align: center;
+}
+
+.pic {
+  border-radius: 2px;
+  width: 200px;
+  height: auto;
+}
+
+.slider {
+  position: relative;
+  width: 220px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.slider-image {
+  display: none;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.slider-image.active {
+  display: block;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  font-size: 24px;
+  padding: 5px 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.slider-btn.left {
+  left: -40px;
+}
+
+.slider-btn.right {
+  right: -40px;
+}
+.slide {
+  display: none;
+  text-align: center;
+}
+
+.slide.active {
+  display: block;
+}
+
+.price {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #00ffff;
+}
+.slide {
+  display: none;
+  text-align: center;
+}
+
+.slide.active {
+  display: block;
+}
+
+.price {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #00ffff;
+}
+.ghgh{
+  
+}
